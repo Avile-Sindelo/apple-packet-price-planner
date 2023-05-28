@@ -1,0 +1,72 @@
+#container{
+    background-color: grey;
+    margin: 0 20%;
+    padding: 3%;
+}
+
+#heading{
+    text-align: center;
+    padding: 3%;
+}
+
+.sub-heading{
+    margin: 1% 5%; 
+}
+
+.data-scheme{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.label{
+    padding: 1% 5%;
+    margin: 3% 0;
+    font-weight: bolder;
+}
+
+.input-box{
+    margin: 2% 0;
+    padding: 2% 25%
+}
+
+.output-fields{
+    background-color: lightgray;
+    padding: 1% 50%;
+    margin: 3% 0%;
+}
+
+#calculate{
+    padding: 1% 5%;
+    margin: 5% 0 3% 65%;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+}
+
+
+@media screen AND (max-width: 1080px){
+    .input-box{
+        margin: 5% 0;
+    }
+}
+
+@media screen AND (max-width: 630px){
+    .input-box{
+        margin: 7% 0;
+    }
+}
+
+@media screen AND (max-width: 550px){
+    .input-box{
+        margin: 9% 0;
+    }
+}

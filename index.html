@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Apple Planner</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="heading"> Apple Packet Price Planner </h1>
+        <h2 class="sub-heading"> Apple buying data </h2>
+        <!-- Entry division -->
+        <div id="input-section" class="section">
+            <div class="data-scheme">
+                <label class="label"> Cost of apple box from the market</label>
+                <label class="label">Number of apples in the box </label>
+                <label class="label">The packet size apples are sold in </label>
+                <label class="label">Required profit %</label>
+            </div>
+
+            <div class="data-scheme">
+                <input type="text" class="input-box">
+                <input type="text" class="input-box">
+                <input type="text" class="input-box">
+                <input type="text" class="input-box" placeholder="Enter a value">
+            </div>
+        </div>
+
+        <button id="calculate">Calculate</button>
+        <h2 class="sub-heading" id="apple-buying-heading"> Apple price calculations </h2>
+
+        <div id="output-section" class="section">
+            <div class="data-scheme">
+                <label class="label"> Number of packets</label>
+                <label class="label">Cost price per apple</label>
+                <label class="label">Cost price per packet</label>
+                <label class="label">Recommended packet price</label>
+            </div>
+
+            <div class="data-scheme">
+                <span class="output-fields">4</span>
+                <span class="output-fields">4</span>
+                <span class="output-fields">4</span>
+                <span class="output-fields">4</span> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
