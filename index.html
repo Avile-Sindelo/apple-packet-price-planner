@@ -14,17 +14,17 @@
         <!-- Entry division -->
         <div id="input-section" class="section">
             <div class="data-scheme">
-                <label class="label"> Cost of apple box from the market</label>
+                <label class="label">Cost of apple box from the market</label>
                 <label class="label">Number of apples in the box </label>
                 <label class="label">The packet size apples are sold in </label>
                 <label class="label">Required profit %</label>
             </div>
 
             <div class="data-scheme">
-                <input type="text" class="input-box">
-                <input type="text" class="input-box">
-                <input type="text" class="input-box">
-                <input type="text" class="input-box" placeholder="Enter a value">
+                <input type="number" class="input-box" id="box-cost">
+                <input type="number" class="input-box" id="apples-in-the-box">
+                <input type="number" class="input-box" id="packet-size">
+                <input type="number" class="input-box" id="required-percentage">
             </div>
         </div>
 
@@ -47,5 +47,8 @@
             </div>
         </div>
     </div>
+
+    <script src="factory/apple-planner.js"></script>
+    <script src="apple-planner-dom.js"></script>
 </body>
 </html>
